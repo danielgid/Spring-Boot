@@ -8,6 +8,9 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+	<!-- I like that you start use maven - if you want make your life easier - use intelijei  -->
+	
 	<groupId>guru.springframework</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -48,6 +51,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<!--Very recomend to use <version> because they update jars very fast-->
 		</dependency>
 	</dependencies>
 
